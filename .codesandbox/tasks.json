@@ -18,6 +18,11 @@
       "name": "compose",
       "command": "docker compose up",
       "runAtStart": true
+    },
+    "prune": {
+      "name": "prune",
+      "command": "podman container prune -f && podman image prune -f",
+      "runAtStart": true
     }
   }
 }
