@@ -22,7 +22,7 @@
     "prune": {
       "name": "prune",
       "command": "podman container prune -f && podman --root /project/.cache/podman-shared image prune -f",
-      "runAtStart": true
+      "runAtStart": false
     }
   }
 }
