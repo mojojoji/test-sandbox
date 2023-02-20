@@ -11,7 +11,7 @@
   "tasks": {
     "dev": {
       "name": "dev",
-      "command": "yarn dev",
+      "command": "npx concurrently \"yarn dev\"",
       "runAtStart": true
     },
     "compose": {
