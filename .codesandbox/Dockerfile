@@ -1,3 +1,3 @@
 FROM node
 
-RUN echo "Test 10" > /test.txt
+RUN echo "Test 11" > /test.txt
