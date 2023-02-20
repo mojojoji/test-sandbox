@@ -13,6 +13,11 @@
       "name": "dev",
       "command": "yarn dev",
       "runAtStart": true
+    },
+    "compose": {
+      "name": "compose",
+      "command": "docker compose up",
+      "runAtStart": true
     }
   }
 }
